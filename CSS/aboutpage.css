@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    background-color: #dcdcdc;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav .nav-left ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav .nav-center h1{
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 1.4em;
+    text-align: center;
+    margin-right: 50px;
+}
+
+nav .nav-right a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.about-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.about-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0, 4px, 20px, rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.overlay-text {
+    position: fixed;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    margin-bottom: 350px;
+    color: #ccc;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    pointer-events: none;
+    color: white;
+}
+
+.about-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    background: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    margin-left: 300px;
+}
+
+.about-button:hover{
+    background: black;
+    color: white;
+}
+
+footer{
+    text-align: left;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #000;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
